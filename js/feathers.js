@@ -42,11 +42,11 @@
     };
 
 
-    this.html(createMenu($(target).find('h2'), 2));
+    this.append(createMenu($(target).find('h2'), 2));
   };
 
   $(document).ready(function() {
-    $('#toc').toc('.page-content');
+    $('#toc .normal').parent().toc('.page-content');
 
     $(window).on('resize', function(){
       $('[data-spy="scroll"]').each(function () {

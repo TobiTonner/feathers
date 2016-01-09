@@ -1,9 +1,7 @@
 ---
 layout: page
-title: Docs
-description: View the beautiful API for docs Feathers all in one place.
-permalink: /docs/
-weight: 4
+title: API
+weight: 2
 ---
 
 This is the Feathers API documentation and details on configuration, service implementation and events.
