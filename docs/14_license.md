@@ -1,6 +1,7 @@
 ---
 title: License
 layout: docs
+permalink: /docs/license/
 ---
 
 ## The MIT license

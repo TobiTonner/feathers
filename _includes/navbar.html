@@ -1,33 +1,13 @@
 <nav>
   <div class="navbar container">
     <ul class="inline-list thin">
-      <li><a class="{% unless page.url == '/community/' %}{% unless page.url == '' %}normal{% endunless %}{% endunless %}" href="{{ '/docs' | prepend: site.baseurl }}">Documentation</a></li>
+      <li><a class="{% unless page.url == '/community/' %}{% unless page.url == '/' %}normal{% endunless %}{% endunless %}" href="{{ '/docs' | prepend: site.baseurl }}">Documentation</a></li>
       <li>
         <a class="logo" href="{{ '/' | prepend: site.baseurl }}">
           <img src="/images/logo.png" alt="Feathers Logo">
         </a>
       </li>
       <li><a class="{% if page.url == '/community/' %}normal{% endif %}" href="{{ '/community' | prepend: site.baseurl }}">Community</a></li>
-      <!--
-      {% for weight in (1..5) %}
-        {% for p in site.pages %}
-          {% if p.weight == weight %}
-            {% unless p.hide %}
-            <li>
-              {% if p.url == '/' %}
-                <a class="logo" href="{{ '/' | prepend: site.baseurl }}">
-                  <img src="/images/logo.png" alt="Feathers Logo">
-                </a>
-              {% else %}
-                <a class="{% if p.url == page.url %}normal{% endif %}" href="{{ p.url | prepend: site.baseurl}}#{{p.anchor}}">
-                  {{ p.title }}
-                </a>
-              {% endif %}
-            </li>
-            {% endunless %}
-          {% endif %}
-        {% endfor %}
-      {% endfor %} -->
     </ul>
   </div>
 </nav>

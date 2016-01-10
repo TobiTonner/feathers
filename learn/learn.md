@@ -4,6 +4,7 @@ title: Learn
 description: Learn how to get the most out of Feathers
 permalink: /learn/
 weight: 2
+hide: true
 ---
 
 So you're ready to learn more about Feathers, eh? If you haven't checked out the [Quick Start guide](/quick-start/) head over there first to get a brief intro to the basic parts of a Feathers app. On this page you'll find additional resources and guides how to do more with Feathers.

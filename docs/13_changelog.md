@@ -1,6 +1,7 @@
 ---
 title: Changelog
 layout: docs
+permalink: /docs/changelog/
 ---
 
 __1.1.1__
