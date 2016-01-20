@@ -8,7 +8,7 @@ function wrapper() {
   const callback = arguments[arguments.length - 1];
 
   if(typeof callback === 'function' && isPromise(result)) {
-    result.then(data => callback(null, data), error => callback(error));
+    result.then(data => callback(null, data), error => callback(error)).done();
   }
   return result;
 }
